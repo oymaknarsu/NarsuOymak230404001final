@@ -1,7 +1,7 @@
 # Breast Ultrasound Classification Project
 ## Tumor vs Normal vs Early Stage Tumor Detection
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on multi-class classification of breast ultrasound images into:
 
@@ -15,7 +15,7 @@ Total Dataset Size: **756 ultrasound images**
 
 ---
 
-## 🧠 Motivation
+## Motivation
 
 Initial experiments using only GLCM texture features achieved:
 
@@ -27,7 +27,7 @@ Therefore, a multi-feature architecture combining texture, shape, edge, statisti
 
 ---
 
-## 🛠 Preprocessing
+## Preprocessing
 
 - Grayscale conversion
 - Speckle noise reduction
@@ -36,7 +36,7 @@ Therefore, a multi-feature architecture combining texture, shape, edge, statisti
 
 ---
 
-## 🔍 Feature Extraction Methods
+## Feature Extraction Methods
 
 ### Texture Features
 - GLCM (Contrast, Energy, Homogeneity, Correlation, ASM, Dissimilarity)
@@ -65,7 +65,7 @@ Therefore, a multi-feature architecture combining texture, shape, edge, statisti
 
 ---
 
-## 🌊 Wavelet Domain Analysis (Bonus Study)
+## Wavelet Domain Analysis (Bonus Study)
 
 Wavelet transform decomposed images into:
 
@@ -84,7 +84,7 @@ This demonstrates that domain transformation improves robustness by isolating no
 
 ---
 
-## 🔬 WEKA Classification Experiments
+## WEKA Classification Experiments
 
 Algorithms used:
 
@@ -99,7 +99,7 @@ Evaluation Metrics:
 
 ---
 
-## 🏆 Best Results
+## Best Results
 
 Feature Fusion (All Features Combined):
 
@@ -111,7 +111,7 @@ This indicates substantial agreement beyond random classification.
 
 ---
 
-## 📊 Key Observations
+## Key Observations
 
 - Single features are insufficient for reliable diagnosis.
 - Feature fusion significantly improves classification.
@@ -121,7 +121,7 @@ This indicates substantial agreement beyond random classification.
 
 ---
 
-## 💻 Technologies
+## Technologies
 
 - Python
 - OpenCV
@@ -132,7 +132,7 @@ This indicates substantial agreement beyond random classification.
 
 ---
 
-## 🎓 Course Information
+## Course Information
 
 Course: Image Processing  
 Instructor: Aysun Sezer  
@@ -140,7 +140,7 @@ Developed as a final university project.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This study demonstrates that hybrid feature engineering combined with ensemble classifiers can significantly improve breast ultrasound classification performance.
 
